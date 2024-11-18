@@ -1,0 +1,5 @@
+/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles/UPC_Calculator.dir
+/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles/SandBox.dir
+/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles/rebuild_cache.dir

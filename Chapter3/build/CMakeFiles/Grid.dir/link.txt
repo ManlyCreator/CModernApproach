@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Grid.dir/grid.c.o -o Grid 

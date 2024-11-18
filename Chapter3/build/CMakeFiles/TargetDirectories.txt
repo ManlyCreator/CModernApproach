@@ -1,0 +1,8 @@
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/SandBox.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/ScanTest.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/ProductInformation.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/PhoneNumberFormatting.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/Grid.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/FractionAdder.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter3/build/CMakeFiles/rebuild_cache.dir

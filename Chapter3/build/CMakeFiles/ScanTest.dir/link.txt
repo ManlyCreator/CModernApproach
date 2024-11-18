@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ScanTest.dir/scanTest.c.o -o ScanTest 

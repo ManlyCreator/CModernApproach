@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/FractionAdder.dir/fractionAdder.c.o -o FractionAdder 
