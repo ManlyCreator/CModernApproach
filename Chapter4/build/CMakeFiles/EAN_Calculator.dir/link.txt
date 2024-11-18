@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/EAN_Calculator.dir/EAN_Calculator.c.o -o EAN_Calculator 

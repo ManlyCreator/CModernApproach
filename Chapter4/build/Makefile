@@ -155,6 +155,69 @@ Excercises/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/build
 .PHONY : Excercises/fast
 
+#=============================================================================
+# Target rules for targets named DigitReader
+
+# Build rule for target.
+DigitReader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DigitReader
+.PHONY : DigitReader
+
+# fast build rule for target.
+DigitReader/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/build
+.PHONY : DigitReader/fast
+
+#=============================================================================
+# Target rules for targets named Octal
+
+# Build rule for target.
+Octal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Octal
+.PHONY : Octal
+
+# fast build rule for target.
+Octal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/build
+.PHONY : Octal/fast
+
+#=============================================================================
+# Target rules for targets named EAN_Calculator
+
+# Build rule for target.
+EAN_Calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EAN_Calculator
+.PHONY : EAN_Calculator
+
+# fast build rule for target.
+EAN_Calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/build
+.PHONY : EAN_Calculator/fast
+
+EAN_Calculator.o: EAN_Calculator.c.o
+.PHONY : EAN_Calculator.o
+
+# target to build an object file
+EAN_Calculator.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/EAN_Calculator.c.o
+.PHONY : EAN_Calculator.c.o
+
+EAN_Calculator.i: EAN_Calculator.c.i
+.PHONY : EAN_Calculator.i
+
+# target to preprocess a source file
+EAN_Calculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/EAN_Calculator.c.i
+.PHONY : EAN_Calculator.c.i
+
+EAN_Calculator.s: EAN_Calculator.c.s
+.PHONY : EAN_Calculator.s
+
+# target to generate assembly for a file
+EAN_Calculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/EAN_Calculator.c.s
+.PHONY : EAN_Calculator.c.s
+
 UPC_Calculator.o: UPC_Calculator.c.o
 .PHONY : UPC_Calculator.o
 
@@ -179,6 +242,30 @@ UPC_Calculator.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UPC_Calculator.dir/build.make CMakeFiles/UPC_Calculator.dir/UPC_Calculator.c.s
 .PHONY : UPC_Calculator.c.s
 
+digitReader.o: digitReader.c.o
+.PHONY : digitReader.o
+
+# target to build an object file
+digitReader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/digitReader.c.o
+.PHONY : digitReader.c.o
+
+digitReader.i: digitReader.c.i
+.PHONY : digitReader.i
+
+# target to preprocess a source file
+digitReader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/digitReader.c.i
+.PHONY : digitReader.c.i
+
+digitReader.s: digitReader.c.s
+.PHONY : digitReader.s
+
+# target to generate assembly for a file
+digitReader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/digitReader.c.s
+.PHONY : digitReader.c.s
+
 excercises.o: excercises.c.o
 .PHONY : excercises.o
 
@@ -202,6 +289,30 @@ excercises.s: excercises.c.s
 excercises.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/excercises.c.s
 .PHONY : excercises.c.s
+
+octal.o: octal.c.o
+.PHONY : octal.o
+
+# target to build an object file
+octal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/octal.c.o
+.PHONY : octal.c.o
+
+octal.i: octal.c.i
+.PHONY : octal.i
+
+# target to preprocess a source file
+octal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/octal.c.i
+.PHONY : octal.c.i
+
+octal.s: octal.c.s
+.PHONY : octal.s
+
+# target to generate assembly for a file
+octal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/octal.c.s
+.PHONY : octal.c.s
 
 sandBox.o: sandBox.c.o
 .PHONY : sandBox.o
@@ -235,15 +346,27 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... DigitReader"
+	@echo "... EAN_Calculator"
 	@echo "... Excercises"
+	@echo "... Octal"
 	@echo "... SandBox"
 	@echo "... UPC_Calculator"
+	@echo "... EAN_Calculator.o"
+	@echo "... EAN_Calculator.i"
+	@echo "... EAN_Calculator.s"
 	@echo "... UPC_Calculator.o"
 	@echo "... UPC_Calculator.i"
 	@echo "... UPC_Calculator.s"
+	@echo "... digitReader.o"
+	@echo "... digitReader.i"
+	@echo "... digitReader.s"
 	@echo "... excercises.o"
 	@echo "... excercises.i"
 	@echo "... excercises.s"
+	@echo "... octal.o"
+	@echo "... octal.i"
+	@echo "... octal.s"
 	@echo "... sandBox.o"
 	@echo "... sandBox.i"
 	@echo "... sandBox.s"

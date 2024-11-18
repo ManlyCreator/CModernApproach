@@ -47,4 +47,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/UPC_Calculator.dir/DependInfo.cmake"
   "CMakeFiles/SandBox.dir/DependInfo.cmake"
   "CMakeFiles/Excercises.dir/DependInfo.cmake"
+  "CMakeFiles/DigitReader.dir/DependInfo.cmake"
+  "CMakeFiles/Octal.dir/DependInfo.cmake"
+  "CMakeFiles/EAN_Calculator.dir/DependInfo.cmake"
   )

@@ -66,6 +66,9 @@ CMAKE_BINARY_DIR = /home/rami/CProjects/CModernApproach/Chapter4/build
 all: CMakeFiles/UPC_Calculator.dir/all
 all: CMakeFiles/SandBox.dir/all
 all: CMakeFiles/Excercises.dir/all
+all: CMakeFiles/DigitReader.dir/all
+all: CMakeFiles/Octal.dir/all
+all: CMakeFiles/EAN_Calculator.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +79,9 @@ preinstall:
 clean: CMakeFiles/UPC_Calculator.dir/clean
 clean: CMakeFiles/SandBox.dir/clean
 clean: CMakeFiles/Excercises.dir/clean
+clean: CMakeFiles/DigitReader.dir/clean
+clean: CMakeFiles/Octal.dir/clean
+clean: CMakeFiles/EAN_Calculator.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +91,7 @@ clean: CMakeFiles/Excercises.dir/clean
 CMakeFiles/UPC_Calculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UPC_Calculator.dir/build.make CMakeFiles/UPC_Calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UPC_Calculator.dir/build.make CMakeFiles/UPC_Calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=5,6 "Built target UPC_Calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=11,12 "Built target UPC_Calculator"
 .PHONY : CMakeFiles/UPC_Calculator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -111,7 +117,7 @@ CMakeFiles/UPC_Calculator.dir/clean:
 CMakeFiles/SandBox.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SandBox.dir/build.make CMakeFiles/SandBox.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SandBox.dir/build.make CMakeFiles/SandBox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=3,4 "Built target SandBox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=9,10 "Built target SandBox"
 .PHONY : CMakeFiles/SandBox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +143,7 @@ CMakeFiles/SandBox.dir/clean:
 CMakeFiles/Excercises.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=1,2 "Built target Excercises"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=5,6 "Built target Excercises"
 .PHONY : CMakeFiles/Excercises.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +161,84 @@ Excercises: CMakeFiles/Excercises.dir/rule
 CMakeFiles/Excercises.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/clean
 .PHONY : CMakeFiles/Excercises.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DigitReader.dir
+
+# All Build rule for target.
+CMakeFiles/DigitReader.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=1,2 "Built target DigitReader"
+.PHONY : CMakeFiles/DigitReader.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DigitReader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DigitReader.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles 0
+.PHONY : CMakeFiles/DigitReader.dir/rule
+
+# Convenience name for target.
+DigitReader: CMakeFiles/DigitReader.dir/rule
+.PHONY : DigitReader
+
+# clean rule for target.
+CMakeFiles/DigitReader.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DigitReader.dir/build.make CMakeFiles/DigitReader.dir/clean
+.PHONY : CMakeFiles/DigitReader.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Octal.dir
+
+# All Build rule for target.
+CMakeFiles/Octal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=7,8 "Built target Octal"
+.PHONY : CMakeFiles/Octal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Octal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Octal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles 0
+.PHONY : CMakeFiles/Octal.dir/rule
+
+# Convenience name for target.
+Octal: CMakeFiles/Octal.dir/rule
+.PHONY : Octal
+
+# clean rule for target.
+CMakeFiles/Octal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Octal.dir/build.make CMakeFiles/Octal.dir/clean
+.PHONY : CMakeFiles/Octal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/EAN_Calculator.dir
+
+# All Build rule for target.
+CMakeFiles/EAN_Calculator.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles --progress-num=3,4 "Built target EAN_Calculator"
+.PHONY : CMakeFiles/EAN_Calculator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/EAN_Calculator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/EAN_Calculator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter4/build/CMakeFiles 0
+.PHONY : CMakeFiles/EAN_Calculator.dir/rule
+
+# Convenience name for target.
+EAN_Calculator: CMakeFiles/EAN_Calculator.dir/rule
+.PHONY : EAN_Calculator
+
+# clean rule for target.
+CMakeFiles/EAN_Calculator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EAN_Calculator.dir/build.make CMakeFiles/EAN_Calculator.dir/clean
+.PHONY : CMakeFiles/EAN_Calculator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
