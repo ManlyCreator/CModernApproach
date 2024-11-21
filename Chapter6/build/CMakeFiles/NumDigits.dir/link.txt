@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/NumDigits.dir/numDigits.c.o -o NumDigits 

@@ -1,0 +1,11 @@
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/NumDigits.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/Checking.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/LargestNumber.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/GCD.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/FractionSimplifier.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/EvenSquares.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/Calendar.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/EulersNumber.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter6/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Calendar.dir/calendar.c.o -o Calendar 
