@@ -1,0 +1,7 @@
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/DigitCalculator.dir
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/TimeConverter.dir
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/TaxableIncome.dir
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/DepartureTimes.dir
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter5/build/CMakeFiles/rebuild_cache.dir

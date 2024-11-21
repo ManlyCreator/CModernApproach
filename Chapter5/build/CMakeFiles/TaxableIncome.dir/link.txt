@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/TaxableIncome.dir/taxableIncome.c.o -o TaxableIncome 
