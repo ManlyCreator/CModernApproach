@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/AlphabeticPhone.dir/alphabeticPhone.c.o -o AlphabeticPhone 

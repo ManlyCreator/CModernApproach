@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/rami/CProjects/CModernApproach/Chapter7/build",
+  "command": "/usr/bin/cc   -std=gnu90 -o CMakeFiles/ToOctal.dir/toOctal.c.o -c /home/rami/CProjects/CModernApproach/Chapter7/toOctal.c",
+  "file": "/home/rami/CProjects/CModernApproach/Chapter7/toOctal.c",
+  "output": "CMakeFiles/ToOctal.dir/toOctal.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/CModernApproach/Chapter7/build",
+  "command": "/usr/bin/cc   -std=gnu90 -o CMakeFiles/ToBinary.dir/toBinary.c.o -c /home/rami/CProjects/CModernApproach/Chapter7/toBinary.c",
+  "file": "/home/rami/CProjects/CModernApproach/Chapter7/toBinary.c",
+  "output": "CMakeFiles/ToBinary.dir/toBinary.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/CModernApproach/Chapter7/build",
+  "command": "/usr/bin/cc   -std=gnu90 -o CMakeFiles/FloatToBinary.dir/floatToBinary.c.o -c /home/rami/CProjects/CModernApproach/Chapter7/floatToBinary.c",
+  "file": "/home/rami/CProjects/CModernApproach/Chapter7/floatToBinary.c",
+  "output": "CMakeFiles/FloatToBinary.dir/floatToBinary.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/CModernApproach/Chapter7/build",
+  "command": "/usr/bin/cc   -std=gnu90 -o CMakeFiles/Excercises.dir/excercises.c.o -c /home/rami/CProjects/CModernApproach/Chapter7/excercises.c",
+  "file": "/home/rami/CProjects/CModernApproach/Chapter7/excercises.c",
+  "output": "CMakeFiles/Excercises.dir/excercises.c.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/FractionCalculator.dir/fractionCalculator.c.o -o FractionCalculator 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ToBinary.dir/toBinary.c.o -o ToBinary 

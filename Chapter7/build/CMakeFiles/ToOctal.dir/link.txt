@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ToOctal.dir/toOctal.c.o -o ToOctal 

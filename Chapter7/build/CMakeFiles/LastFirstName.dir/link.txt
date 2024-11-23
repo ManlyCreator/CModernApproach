@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/LastFirstName.dir/lastFirstName.c.o -o LastFirstName 
