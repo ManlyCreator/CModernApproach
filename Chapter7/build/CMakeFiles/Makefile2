@@ -73,6 +73,8 @@ all: CMakeFiles/TimeConverter.dir/all
 all: CMakeFiles/FractionCalculator.dir/all
 all: CMakeFiles/LastFirstName.dir/all
 all: CMakeFiles/ExpressionCalculator.dir/all
+all: CMakeFiles/NewtonsRoot.dir/all
+all: CMakeFiles/Factorial.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -90,6 +92,8 @@ clean: CMakeFiles/TimeConverter.dir/clean
 clean: CMakeFiles/FractionCalculator.dir/clean
 clean: CMakeFiles/LastFirstName.dir/clean
 clean: CMakeFiles/ExpressionCalculator.dir/clean
+clean: CMakeFiles/NewtonsRoot.dir/clean
+clean: CMakeFiles/Factorial.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,7 +103,7 @@ clean: CMakeFiles/ExpressionCalculator.dir/clean
 CMakeFiles/ToOctal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToOctal.dir/build.make CMakeFiles/ToOctal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToOctal.dir/build.make CMakeFiles/ToOctal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=19,20 "Built target ToOctal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=23,24 "Built target ToOctal"
 .PHONY : CMakeFiles/ToOctal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -125,7 +129,7 @@ CMakeFiles/ToOctal.dir/clean:
 CMakeFiles/ToBinary.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToBinary.dir/build.make CMakeFiles/ToBinary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToBinary.dir/build.make CMakeFiles/ToBinary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=17,18 "Built target ToBinary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=21,22 "Built target ToBinary"
 .PHONY : CMakeFiles/ToBinary.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,7 +155,7 @@ CMakeFiles/ToBinary.dir/clean:
 CMakeFiles/FloatToBinary.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FloatToBinary.dir/build.make CMakeFiles/FloatToBinary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FloatToBinary.dir/build.make CMakeFiles/FloatToBinary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=7,8 "Built target FloatToBinary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=9,10 "Built target FloatToBinary"
 .PHONY : CMakeFiles/FloatToBinary.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,7 +233,7 @@ CMakeFiles/AlphabeticPhone.dir/clean:
 CMakeFiles/Scrabble.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=13,14 "Built target Scrabble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=17,18 "Built target Scrabble"
 .PHONY : CMakeFiles/Scrabble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,7 +259,7 @@ CMakeFiles/Scrabble.dir/clean:
 CMakeFiles/TimeConverter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeConverter.dir/build.make CMakeFiles/TimeConverter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeConverter.dir/build.make CMakeFiles/TimeConverter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=15,16 "Built target TimeConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=19,20 "Built target TimeConverter"
 .PHONY : CMakeFiles/TimeConverter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +285,7 @@ CMakeFiles/TimeConverter.dir/clean:
 CMakeFiles/FractionCalculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FractionCalculator.dir/build.make CMakeFiles/FractionCalculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FractionCalculator.dir/build.make CMakeFiles/FractionCalculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=9,10 "Built target FractionCalculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=11,12 "Built target FractionCalculator"
 .PHONY : CMakeFiles/FractionCalculator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -307,7 +311,7 @@ CMakeFiles/FractionCalculator.dir/clean:
 CMakeFiles/LastFirstName.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LastFirstName.dir/build.make CMakeFiles/LastFirstName.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LastFirstName.dir/build.make CMakeFiles/LastFirstName.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=11,12 "Built target LastFirstName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=13,14 "Built target LastFirstName"
 .PHONY : CMakeFiles/LastFirstName.dir/all
 
 # Build rule for subdir invocation for target.
@@ -351,6 +355,58 @@ ExpressionCalculator: CMakeFiles/ExpressionCalculator.dir/rule
 CMakeFiles/ExpressionCalculator.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExpressionCalculator.dir/build.make CMakeFiles/ExpressionCalculator.dir/clean
 .PHONY : CMakeFiles/ExpressionCalculator.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NewtonsRoot.dir
+
+# All Build rule for target.
+CMakeFiles/NewtonsRoot.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=15,16 "Built target NewtonsRoot"
+.PHONY : CMakeFiles/NewtonsRoot.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NewtonsRoot.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NewtonsRoot.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles 0
+.PHONY : CMakeFiles/NewtonsRoot.dir/rule
+
+# Convenience name for target.
+NewtonsRoot: CMakeFiles/NewtonsRoot.dir/rule
+.PHONY : NewtonsRoot
+
+# clean rule for target.
+CMakeFiles/NewtonsRoot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/clean
+.PHONY : CMakeFiles/NewtonsRoot.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Factorial.dir
+
+# All Build rule for target.
+CMakeFiles/Factorial.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles --progress-num=7,8 "Built target Factorial"
+.PHONY : CMakeFiles/Factorial.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Factorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Factorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles 0
+.PHONY : CMakeFiles/Factorial.dir/rule
+
+# Convenience name for target.
+Factorial: CMakeFiles/Factorial.dir/rule
+.PHONY : Factorial
+
+# clean rule for target.
+CMakeFiles/Factorial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/clean
+.PHONY : CMakeFiles/Factorial.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

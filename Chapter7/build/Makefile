@@ -246,6 +246,32 @@ ExpressionCalculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExpressionCalculator.dir/build.make CMakeFiles/ExpressionCalculator.dir/build
 .PHONY : ExpressionCalculator/fast
 
+#=============================================================================
+# Target rules for targets named NewtonsRoot
+
+# Build rule for target.
+NewtonsRoot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NewtonsRoot
+.PHONY : NewtonsRoot
+
+# fast build rule for target.
+NewtonsRoot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/build
+.PHONY : NewtonsRoot/fast
+
+#=============================================================================
+# Target rules for targets named Factorial
+
+# Build rule for target.
+Factorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Factorial
+.PHONY : Factorial
+
+# fast build rule for target.
+Factorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/build
+.PHONY : Factorial/fast
+
 alphabeticPhone.o: alphabeticPhone.c.o
 .PHONY : alphabeticPhone.o
 
@@ -318,6 +344,30 @@ expressionCalculator.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExpressionCalculator.dir/build.make CMakeFiles/ExpressionCalculator.dir/expressionCalculator.c.s
 .PHONY : expressionCalculator.c.s
 
+factorial.o: factorial.c.o
+.PHONY : factorial.o
+
+# target to build an object file
+factorial.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/factorial.c.o
+.PHONY : factorial.c.o
+
+factorial.i: factorial.c.i
+.PHONY : factorial.i
+
+# target to preprocess a source file
+factorial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/factorial.c.i
+.PHONY : factorial.c.i
+
+factorial.s: factorial.c.s
+.PHONY : factorial.s
+
+# target to generate assembly for a file
+factorial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factorial.dir/build.make CMakeFiles/Factorial.dir/factorial.c.s
+.PHONY : factorial.c.s
+
 floatToBinary.o: floatToBinary.c.o
 .PHONY : floatToBinary.o
 
@@ -389,6 +439,30 @@ lastFirstName.s: lastFirstName.c.s
 lastFirstName.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LastFirstName.dir/build.make CMakeFiles/LastFirstName.dir/lastFirstName.c.s
 .PHONY : lastFirstName.c.s
+
+newtonsRoot.o: newtonsRoot.c.o
+.PHONY : newtonsRoot.o
+
+# target to build an object file
+newtonsRoot.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/newtonsRoot.c.o
+.PHONY : newtonsRoot.c.o
+
+newtonsRoot.i: newtonsRoot.c.i
+.PHONY : newtonsRoot.i
+
+# target to preprocess a source file
+newtonsRoot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/newtonsRoot.c.i
+.PHONY : newtonsRoot.c.i
+
+newtonsRoot.s: newtonsRoot.c.s
+.PHONY : newtonsRoot.s
+
+# target to generate assembly for a file
+newtonsRoot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewtonsRoot.dir/build.make CMakeFiles/NewtonsRoot.dir/newtonsRoot.c.s
+.PHONY : newtonsRoot.c.s
 
 scrabble.o: scrabble.c.o
 .PHONY : scrabble.o
@@ -497,9 +571,11 @@ help:
 	@echo "... AlphabeticPhone"
 	@echo "... Excercises"
 	@echo "... ExpressionCalculator"
+	@echo "... Factorial"
 	@echo "... FloatToBinary"
 	@echo "... FractionCalculator"
 	@echo "... LastFirstName"
+	@echo "... NewtonsRoot"
 	@echo "... Scrabble"
 	@echo "... TimeConverter"
 	@echo "... ToBinary"
@@ -513,6 +589,9 @@ help:
 	@echo "... expressionCalculator.o"
 	@echo "... expressionCalculator.i"
 	@echo "... expressionCalculator.s"
+	@echo "... factorial.o"
+	@echo "... factorial.i"
+	@echo "... factorial.s"
 	@echo "... floatToBinary.o"
 	@echo "... floatToBinary.i"
 	@echo "... floatToBinary.s"
@@ -522,6 +601,9 @@ help:
 	@echo "... lastFirstName.o"
 	@echo "... lastFirstName.i"
 	@echo "... lastFirstName.s"
+	@echo "... newtonsRoot.o"
+	@echo "... newtonsRoot.i"
+	@echo "... newtonsRoot.s"
 	@echo "... scrabble.o"
 	@echo "... scrabble.i"
 	@echo "... scrabble.s"

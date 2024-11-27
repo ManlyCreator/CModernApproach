@@ -8,5 +8,7 @@
 /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/FractionCalculator.dir
 /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/LastFirstName.dir
 /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/ExpressionCalculator.dir
+/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/NewtonsRoot.dir
+/home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/Factorial.dir
 /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/edit_cache.dir
 /home/rami/CProjects/CModernApproach/Chapter7/build/CMakeFiles/rebuild_cache.dir

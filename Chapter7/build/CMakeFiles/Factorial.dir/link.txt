@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Factorial.dir/factorial.c.o -o Factorial 

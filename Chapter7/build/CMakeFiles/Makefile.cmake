@@ -54,4 +54,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FractionCalculator.dir/DependInfo.cmake"
   "CMakeFiles/LastFirstName.dir/DependInfo.cmake"
   "CMakeFiles/ExpressionCalculator.dir/DependInfo.cmake"
+  "CMakeFiles/NewtonsRoot.dir/DependInfo.cmake"
+  "CMakeFiles/Factorial.dir/DependInfo.cmake"
   )
