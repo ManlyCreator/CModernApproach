@@ -142,6 +142,69 @@ DuplicateDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/build
 .PHONY : DuplicateDigits/fast
 
+#=============================================================================
+# Target rules for targets named ReverseSentences
+
+# Build rule for target.
+ReverseSentences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ReverseSentences
+.PHONY : ReverseSentences
+
+# fast build rule for target.
+ReverseSentences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/build
+.PHONY : ReverseSentences/fast
+
+#=============================================================================
+# Target rules for targets named AnagramChecker
+
+# Build rule for target.
+AnagramChecker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AnagramChecker
+.PHONY : AnagramChecker
+
+# fast build rule for target.
+AnagramChecker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/build
+.PHONY : AnagramChecker/fast
+
+#=============================================================================
+# Target rules for targets named MagicSquare
+
+# Build rule for target.
+MagicSquare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MagicSquare
+.PHONY : MagicSquare
+
+# fast build rule for target.
+MagicSquare/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/build
+.PHONY : MagicSquare/fast
+
+anagramChecker.o: anagramChecker.c.o
+.PHONY : anagramChecker.o
+
+# target to build an object file
+anagramChecker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/anagramChecker.c.o
+.PHONY : anagramChecker.c.o
+
+anagramChecker.i: anagramChecker.c.i
+.PHONY : anagramChecker.i
+
+# target to preprocess a source file
+anagramChecker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/anagramChecker.c.i
+.PHONY : anagramChecker.c.i
+
+anagramChecker.s: anagramChecker.c.s
+.PHONY : anagramChecker.s
+
+# target to generate assembly for a file
+anagramChecker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/anagramChecker.c.s
+.PHONY : anagramChecker.c.s
+
 duplicateDigits.o: duplicateDigits.c.o
 .PHONY : duplicateDigits.o
 
@@ -165,6 +228,54 @@ duplicateDigits.s: duplicateDigits.c.s
 duplicateDigits.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/duplicateDigits.c.s
 .PHONY : duplicateDigits.c.s
+
+magicSquare.o: magicSquare.c.o
+.PHONY : magicSquare.o
+
+# target to build an object file
+magicSquare.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/magicSquare.c.o
+.PHONY : magicSquare.c.o
+
+magicSquare.i: magicSquare.c.i
+.PHONY : magicSquare.i
+
+# target to preprocess a source file
+magicSquare.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/magicSquare.c.i
+.PHONY : magicSquare.c.i
+
+magicSquare.s: magicSquare.c.s
+.PHONY : magicSquare.s
+
+# target to generate assembly for a file
+magicSquare.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/magicSquare.c.s
+.PHONY : magicSquare.c.s
+
+reverseSentences.o: reverseSentences.c.o
+.PHONY : reverseSentences.o
+
+# target to build an object file
+reverseSentences.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/reverseSentences.c.o
+.PHONY : reverseSentences.c.o
+
+reverseSentences.i: reverseSentences.c.i
+.PHONY : reverseSentences.i
+
+# target to preprocess a source file
+reverseSentences.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/reverseSentences.c.i
+.PHONY : reverseSentences.c.i
+
+reverseSentences.s: reverseSentences.c.s
+.PHONY : reverseSentences.s
+
+# target to generate assembly for a file
+reverseSentences.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/reverseSentences.c.s
+.PHONY : reverseSentences.c.s
 
 sandBox.o: sandBox.c.o
 .PHONY : sandBox.o
@@ -198,11 +309,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... AnagramChecker"
 	@echo "... DuplicateDigits"
+	@echo "... MagicSquare"
+	@echo "... ReverseSentences"
 	@echo "... SandBox"
+	@echo "... anagramChecker.o"
+	@echo "... anagramChecker.i"
+	@echo "... anagramChecker.s"
 	@echo "... duplicateDigits.o"
 	@echo "... duplicateDigits.i"
 	@echo "... duplicateDigits.s"
+	@echo "... magicSquare.o"
+	@echo "... magicSquare.i"
+	@echo "... magicSquare.s"
+	@echo "... reverseSentences.o"
+	@echo "... reverseSentences.i"
+	@echo "... reverseSentences.s"
 	@echo "... sandBox.o"
 	@echo "... sandBox.i"
 	@echo "... sandBox.s"

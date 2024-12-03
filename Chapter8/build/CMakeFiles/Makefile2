@@ -65,6 +65,9 @@ CMAKE_BINARY_DIR = /home/rami/CProjects/CModernApproach/Chapter8/build
 # The main recursive "all" target.
 all: CMakeFiles/SandBox.dir/all
 all: CMakeFiles/DuplicateDigits.dir/all
+all: CMakeFiles/ReverseSentences.dir/all
+all: CMakeFiles/AnagramChecker.dir/all
+all: CMakeFiles/MagicSquare.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +77,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/SandBox.dir/clean
 clean: CMakeFiles/DuplicateDigits.dir/clean
+clean: CMakeFiles/ReverseSentences.dir/clean
+clean: CMakeFiles/AnagramChecker.dir/clean
+clean: CMakeFiles/MagicSquare.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,7 +89,7 @@ clean: CMakeFiles/DuplicateDigits.dir/clean
 CMakeFiles/SandBox.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SandBox.dir/build.make CMakeFiles/SandBox.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SandBox.dir/build.make CMakeFiles/SandBox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=3,4 "Built target SandBox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=9,10 "Built target SandBox"
 .PHONY : CMakeFiles/SandBox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -109,7 +115,7 @@ CMakeFiles/SandBox.dir/clean:
 CMakeFiles/DuplicateDigits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=1,2 "Built target DuplicateDigits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=3,4 "Built target DuplicateDigits"
 .PHONY : CMakeFiles/DuplicateDigits.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +133,84 @@ DuplicateDigits: CMakeFiles/DuplicateDigits.dir/rule
 CMakeFiles/DuplicateDigits.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/clean
 .PHONY : CMakeFiles/DuplicateDigits.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ReverseSentences.dir
+
+# All Build rule for target.
+CMakeFiles/ReverseSentences.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=7,8 "Built target ReverseSentences"
+.PHONY : CMakeFiles/ReverseSentences.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ReverseSentences.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ReverseSentences.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles 0
+.PHONY : CMakeFiles/ReverseSentences.dir/rule
+
+# Convenience name for target.
+ReverseSentences: CMakeFiles/ReverseSentences.dir/rule
+.PHONY : ReverseSentences
+
+# clean rule for target.
+CMakeFiles/ReverseSentences.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseSentences.dir/build.make CMakeFiles/ReverseSentences.dir/clean
+.PHONY : CMakeFiles/ReverseSentences.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AnagramChecker.dir
+
+# All Build rule for target.
+CMakeFiles/AnagramChecker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=1,2 "Built target AnagramChecker"
+.PHONY : CMakeFiles/AnagramChecker.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AnagramChecker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AnagramChecker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles 0
+.PHONY : CMakeFiles/AnagramChecker.dir/rule
+
+# Convenience name for target.
+AnagramChecker: CMakeFiles/AnagramChecker.dir/rule
+.PHONY : AnagramChecker
+
+# clean rule for target.
+CMakeFiles/AnagramChecker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnagramChecker.dir/build.make CMakeFiles/AnagramChecker.dir/clean
+.PHONY : CMakeFiles/AnagramChecker.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MagicSquare.dir
+
+# All Build rule for target.
+CMakeFiles/MagicSquare.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles --progress-num=5,6 "Built target MagicSquare"
+.PHONY : CMakeFiles/MagicSquare.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MagicSquare.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MagicSquare.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles 0
+.PHONY : CMakeFiles/MagicSquare.dir/rule
+
+# Convenience name for target.
+MagicSquare: CMakeFiles/MagicSquare.dir/rule
+.PHONY : MagicSquare
+
+# clean rule for target.
+CMakeFiles/MagicSquare.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagicSquare.dir/build.make CMakeFiles/MagicSquare.dir/clean
+.PHONY : CMakeFiles/MagicSquare.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

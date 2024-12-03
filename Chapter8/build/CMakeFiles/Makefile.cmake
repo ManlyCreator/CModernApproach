@@ -46,4 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SandBox.dir/DependInfo.cmake"
   "CMakeFiles/DuplicateDigits.dir/DependInfo.cmake"
+  "CMakeFiles/ReverseSentences.dir/DependInfo.cmake"
+  "CMakeFiles/AnagramChecker.dir/DependInfo.cmake"
+  "CMakeFiles/MagicSquare.dir/DependInfo.cmake"
   )
