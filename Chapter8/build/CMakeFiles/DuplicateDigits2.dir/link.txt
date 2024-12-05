@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/DuplicateDigits2.dir/duplicateDigits2.c.o -o DuplicateDigits2 
