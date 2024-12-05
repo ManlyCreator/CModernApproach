@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/RandomWalk.dir/randomWalk.c.o -o RandomWalk 

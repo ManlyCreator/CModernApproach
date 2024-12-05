@@ -6,4 +6,8 @@ int main(void) {
   for (int i = 0; i < 15; i++) {
     printf("%d.) %d\n", i, a[i]);
   }
+
+  printf("a: %ld\n", sizeof(a));
+  printf("int: %ld\n", sizeof(int));
+  printf("# Elements in a: %ld\n", sizeof(a) / sizeof(int));
 }

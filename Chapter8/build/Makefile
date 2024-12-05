@@ -142,6 +142,95 @@ DuplicateDigits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/build
 .PHONY : DuplicateDigits/fast
 
+#=============================================================================
+# Target rules for targets named Interest
+
+# Build rule for target.
+Interest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Interest
+.PHONY : Interest
+
+# fast build rule for target.
+Interest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interest.dir/build.make CMakeFiles/Interest.dir/build
+.PHONY : Interest/fast
+
+#=============================================================================
+# Target rules for targets named DealingCards
+
+# Build rule for target.
+DealingCards: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DealingCards
+.PHONY : DealingCards
+
+# fast build rule for target.
+DealingCards/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DealingCards.dir/build.make CMakeFiles/DealingCards.dir/build
+.PHONY : DealingCards/fast
+
+#=============================================================================
+# Target rules for targets named Excercises
+
+# Build rule for target.
+Excercises: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Excercises
+.PHONY : Excercises
+
+# fast build rule for target.
+Excercises/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/build
+.PHONY : Excercises/fast
+
+#=============================================================================
+# Target rules for targets named DuplicateDigits2
+
+# Build rule for target.
+DuplicateDigits2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DuplicateDigits2
+.PHONY : DuplicateDigits2
+
+# fast build rule for target.
+DuplicateDigits2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits2.dir/build.make CMakeFiles/DuplicateDigits2.dir/build
+.PHONY : DuplicateDigits2/fast
+
+#=============================================================================
+# Target rules for targets named RandomWalk
+
+# Build rule for target.
+RandomWalk: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RandomWalk
+.PHONY : RandomWalk
+
+# fast build rule for target.
+RandomWalk/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomWalk.dir/build.make CMakeFiles/RandomWalk.dir/build
+.PHONY : RandomWalk/fast
+
+dealingCards.o: dealingCards.c.o
+.PHONY : dealingCards.o
+
+# target to build an object file
+dealingCards.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DealingCards.dir/build.make CMakeFiles/DealingCards.dir/dealingCards.c.o
+.PHONY : dealingCards.c.o
+
+dealingCards.i: dealingCards.c.i
+.PHONY : dealingCards.i
+
+# target to preprocess a source file
+dealingCards.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DealingCards.dir/build.make CMakeFiles/DealingCards.dir/dealingCards.c.i
+.PHONY : dealingCards.c.i
+
+dealingCards.s: dealingCards.c.s
+.PHONY : dealingCards.s
+
+# target to generate assembly for a file
+dealingCards.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DealingCards.dir/build.make CMakeFiles/DealingCards.dir/dealingCards.c.s
+.PHONY : dealingCards.c.s
+
 duplicateDigits.o: duplicateDigits.c.o
 .PHONY : duplicateDigits.o
 
@@ -165,6 +254,102 @@ duplicateDigits.s: duplicateDigits.c.s
 duplicateDigits.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits.dir/build.make CMakeFiles/DuplicateDigits.dir/duplicateDigits.c.s
 .PHONY : duplicateDigits.c.s
+
+duplicateDigits2.o: duplicateDigits2.c.o
+.PHONY : duplicateDigits2.o
+
+# target to build an object file
+duplicateDigits2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits2.dir/build.make CMakeFiles/DuplicateDigits2.dir/duplicateDigits2.c.o
+.PHONY : duplicateDigits2.c.o
+
+duplicateDigits2.i: duplicateDigits2.c.i
+.PHONY : duplicateDigits2.i
+
+# target to preprocess a source file
+duplicateDigits2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits2.dir/build.make CMakeFiles/DuplicateDigits2.dir/duplicateDigits2.c.i
+.PHONY : duplicateDigits2.c.i
+
+duplicateDigits2.s: duplicateDigits2.c.s
+.PHONY : duplicateDigits2.s
+
+# target to generate assembly for a file
+duplicateDigits2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuplicateDigits2.dir/build.make CMakeFiles/DuplicateDigits2.dir/duplicateDigits2.c.s
+.PHONY : duplicateDigits2.c.s
+
+excercises.o: excercises.c.o
+.PHONY : excercises.o
+
+# target to build an object file
+excercises.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/excercises.c.o
+.PHONY : excercises.c.o
+
+excercises.i: excercises.c.i
+.PHONY : excercises.i
+
+# target to preprocess a source file
+excercises.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/excercises.c.i
+.PHONY : excercises.c.i
+
+excercises.s: excercises.c.s
+.PHONY : excercises.s
+
+# target to generate assembly for a file
+excercises.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Excercises.dir/build.make CMakeFiles/Excercises.dir/excercises.c.s
+.PHONY : excercises.c.s
+
+interest.o: interest.c.o
+.PHONY : interest.o
+
+# target to build an object file
+interest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interest.dir/build.make CMakeFiles/Interest.dir/interest.c.o
+.PHONY : interest.c.o
+
+interest.i: interest.c.i
+.PHONY : interest.i
+
+# target to preprocess a source file
+interest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interest.dir/build.make CMakeFiles/Interest.dir/interest.c.i
+.PHONY : interest.c.i
+
+interest.s: interest.c.s
+.PHONY : interest.s
+
+# target to generate assembly for a file
+interest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Interest.dir/build.make CMakeFiles/Interest.dir/interest.c.s
+.PHONY : interest.c.s
+
+randomWalk.o: randomWalk.c.o
+.PHONY : randomWalk.o
+
+# target to build an object file
+randomWalk.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomWalk.dir/build.make CMakeFiles/RandomWalk.dir/randomWalk.c.o
+.PHONY : randomWalk.c.o
+
+randomWalk.i: randomWalk.c.i
+.PHONY : randomWalk.i
+
+# target to preprocess a source file
+randomWalk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomWalk.dir/build.make CMakeFiles/RandomWalk.dir/randomWalk.c.i
+.PHONY : randomWalk.c.i
+
+randomWalk.s: randomWalk.c.s
+.PHONY : randomWalk.s
+
+# target to generate assembly for a file
+randomWalk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomWalk.dir/build.make CMakeFiles/RandomWalk.dir/randomWalk.c.s
+.PHONY : randomWalk.c.s
 
 sandBox.o: sandBox.c.o
 .PHONY : sandBox.o
@@ -198,11 +383,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... DealingCards"
 	@echo "... DuplicateDigits"
+	@echo "... DuplicateDigits2"
+	@echo "... Excercises"
+	@echo "... Interest"
+	@echo "... RandomWalk"
 	@echo "... SandBox"
+	@echo "... dealingCards.o"
+	@echo "... dealingCards.i"
+	@echo "... dealingCards.s"
 	@echo "... duplicateDigits.o"
 	@echo "... duplicateDigits.i"
 	@echo "... duplicateDigits.s"
+	@echo "... duplicateDigits2.o"
+	@echo "... duplicateDigits2.i"
+	@echo "... duplicateDigits2.s"
+	@echo "... excercises.o"
+	@echo "... excercises.i"
+	@echo "... excercises.s"
+	@echo "... interest.o"
+	@echo "... interest.i"
+	@echo "... interest.s"
+	@echo "... randomWalk.o"
+	@echo "... randomWalk.i"
+	@echo "... randomWalk.s"
 	@echo "... sandBox.o"
 	@echo "... sandBox.i"
 	@echo "... sandBox.s"
