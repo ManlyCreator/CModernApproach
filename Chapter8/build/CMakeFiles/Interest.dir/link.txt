@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Interest.dir/interest.c.o -o Interest 

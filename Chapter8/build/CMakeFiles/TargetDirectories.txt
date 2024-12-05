@@ -1,0 +1,12 @@
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/SandBox.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/DuplicateDigits.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/Interest.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/DealingCards.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/DuplicateDigits2.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/RandomWalk.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/ReverseSentences.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/AnagramChecker.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/MagicSquare.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter8/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ReverseSentences.dir/reverseSentences.c.o -o ReverseSentences 

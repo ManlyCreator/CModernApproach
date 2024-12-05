@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/MagicSquare.dir/magicSquare.c.o -o MagicSquare 
