@@ -2,8 +2,6 @@
 
 int power(int x, int n);
 
-// TODO: Implement the correct recursion pattern to solve for x^n
-
 int main(void) {
   int x, n, result;
 
@@ -18,23 +16,21 @@ int main(void) {
 }
 
 int power(int x, int n) {
-  int temp;
+  int pow;
 
   if (n <= 0)
     return 1;
 
-  if (n % 2 == 0)
-    n /= 2;
-  else
-    n--;
 
-  temp = power(x, n);
-  printf("n: %d\n", n);
-  printf("temp: %d\n", temp);
-  for (int i = 0; i < n - 1; i++) {
-    temp *= x;
+  if (n % 2 == 0) {
+    n /= 2;
+    pow = power(x, n);
+    x = pow * pow;
+  } else {
+    n--;
+    pow = power(x, n);
+    x *= pow;
   }
-  x *= temp;
 
   return x;
 }

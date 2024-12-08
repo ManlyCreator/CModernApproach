@@ -168,6 +168,43 @@ Power/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/build
 .PHONY : Power/fast
 
+#=============================================================================
+# Target rules for targets named Craps
+
+# Build rule for target.
+Craps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Craps
+.PHONY : Craps
+
+# fast build rule for target.
+Craps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Craps.dir/build.make CMakeFiles/Craps.dir/build
+.PHONY : Craps/fast
+
+craps.o: craps.c.o
+.PHONY : craps.o
+
+# target to build an object file
+craps.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Craps.dir/build.make CMakeFiles/Craps.dir/craps.c.o
+.PHONY : craps.c.o
+
+craps.i: craps.c.i
+.PHONY : craps.i
+
+# target to preprocess a source file
+craps.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Craps.dir/build.make CMakeFiles/Craps.dir/craps.c.i
+.PHONY : craps.c.i
+
+craps.s: craps.c.s
+.PHONY : craps.s
+
+# target to generate assembly for a file
+craps.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Craps.dir/build.make CMakeFiles/Craps.dir/craps.c.s
+.PHONY : craps.c.s
+
 excercises.o: excercises.c.o
 .PHONY : excercises.o
 
@@ -272,10 +309,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Craps"
 	@echo "... Excercises"
 	@echo "... Power"
 	@echo "... QuickSort"
 	@echo "... SandBox"
+	@echo "... craps.o"
+	@echo "... craps.i"
+	@echo "... craps.s"
 	@echo "... excercises.o"
 	@echo "... excercises.i"
 	@echo "... excercises.s"

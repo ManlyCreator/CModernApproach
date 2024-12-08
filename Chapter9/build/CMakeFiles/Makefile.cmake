@@ -48,4 +48,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/QuickSort.dir/DependInfo.cmake"
   "CMakeFiles/Excercises.dir/DependInfo.cmake"
   "CMakeFiles/Power.dir/DependInfo.cmake"
+  "CMakeFiles/Craps.dir/DependInfo.cmake"
   )
