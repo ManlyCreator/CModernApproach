@@ -1,0 +1,7 @@
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/SandBox.dir
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/NestedParentheses.dir
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/RPNCalculator.dir
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/DigitalDigits.dir
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter10/build/CMakeFiles/rebuild_cache.dir
