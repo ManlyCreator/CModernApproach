@@ -3,27 +3,49 @@
 #define MAX_DIGITS 10
 
 int segments[7];
-char digits[4][4 * MAX_DIGITS];
+char digits[3][4 * MAX_DIGITS];
 
+void clearDigits(void);
 void processDigit(int n, int pos);
 void printDigits(void);
 
-// TODO: Create a function to initializes the digits array to ' '
-// TODO: Finish digits construction
-// TODO: Implement printDigits
-
 int main(void) {
-  int n;
+  int numsRead = 0;
+  char ch;
 
-  for (int i = 0; i < MAX_DIGITS; i++) {
-    scanf("%1d", &n);
-    processDigit(n, i);
-  }
+  clearDigits();
 
+  printf("Enter a number: ");
+  do {
+    scanf("%c", &ch);
+    if (ch - '0' >= 0 && ch - '0' < 10) {
+      processDigit(ch - '0', numsRead);
+      numsRead++;
+    }
+  } while (numsRead < MAX_DIGITS && ch != '\n');
+
+  printDigits();
 
   return 0;
 }
 
+/*******************************************************
+ * clearDigits: Sets all elements in the digits array  *
+ *              to ' '                                 *
+ *******************************************************/
+void clearDigits(void) {
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 4 * MAX_DIGITS; j++) {
+      digits[i][j] = ' ';
+    }
+  }
+}
+
+/****************************************************************
+ * processDigit: Sets the proper segments to 1 or 0 depending   *
+ *               on the number to be processed, then constructs *
+ *               that digit within the digits array             *
+ ****************************************************************/
 void processDigit(int n, int pos) {
   switch (n) {
     case 0:
@@ -118,10 +140,28 @@ void processDigit(int n, int pos) {
   }
 
   int colOffset = pos * 4;
-  digits[0][2 + colOffset] = segments[0] ? '_' : ' ';
+
+  digits[0][1 + colOffset] = segments[0] ? '_' : ' ';
+  digits[0][3 + colOffset] = ' ';
   digits[1][0 + colOffset] = segments[5] ? '|' : ' ';
-  digits[1][1 + colOffset] = segments[6] ? '|' : ' ';
-  printf(" %c \n", segments[0] ? '_' : ' ');
-  printf("%c%c%c\n", segments[5] ? '|' : ' ', segments[6] ? '_' : ' ', segments[1] ? '|' : ' ');
-  printf("%c%c%c\n", segments[4] ? '|' : ' ', segments[3] ? '_' : ' ', segments[2] ? '|' : ' ');
+  digits[1][1 + colOffset] = segments[6] ? '_' : ' ';
+  digits[1][2 + colOffset] = segments[1] ? '|' : ' ';
+  digits[1][3 + colOffset] = ' ';
+  digits[2][0 + colOffset] = segments[4] ? '|' : ' ';
+  digits[2][1 + colOffset] = segments[3] ? '_' : ' ';
+  digits[2][2 + colOffset] = segments[2] ? '|' : ' ';
+  digits[2][3 + colOffset] = ' ';
 } 
+
+/********************************************************************
+ * printDigits: Iterates through each character in the digits array *
+ *              and prints it to the screen                         *
+ ********************************************************************/
+void printDigits(void) {
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 4 * MAX_DIGITS; j++) {
+      printf("%c", digits[i][j]);
+    }
+    printf("\n");
+  }
+}
