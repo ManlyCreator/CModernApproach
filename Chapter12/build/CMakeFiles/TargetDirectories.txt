@@ -1,0 +1,6 @@
+/home/rami/CProjects/CModernApproach/Chapter12/build/CMakeFiles/SandBox.dir
+/home/rami/CProjects/CModernApproach/Chapter12/build/CMakeFiles/Reverse.dir
+/home/rami/CProjects/CModernApproach/Chapter12/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter12/build/CMakeFiles/Palindrome.dir
+/home/rami/CProjects/CModernApproach/Chapter12/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/CModernApproach/Chapter12/build/CMakeFiles/rebuild_cache.dir
