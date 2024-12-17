@@ -4,9 +4,6 @@
 
 #define N 256
 
-// TODO: Implement a for loop that ignores anything other than letters
-//       and checks if the stored word is a palindrome
-
 int main(void) {
   char word[N];
   char *p = word, *q;
