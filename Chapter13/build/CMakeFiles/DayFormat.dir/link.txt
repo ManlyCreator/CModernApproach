@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/DayFormat.dir/dayFormat.c.o -o DayFormat 

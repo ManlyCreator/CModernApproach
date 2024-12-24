@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/WordComparison.dir/wordComparison.c.o -o WordComparison 

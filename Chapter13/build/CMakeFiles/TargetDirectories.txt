@@ -1,3 +1,8 @@
 /home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/SandBox.dir
+/home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/Planet.dir
+/home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/Excercises.dir
+/home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/WordComparison.dir
+/home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/Remind.dir
+/home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/DayFormat.dir
 /home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/edit_cache.dir
 /home/rami/CProjects/CModernApproach/Chapter13/build/CMakeFiles/rebuild_cache.dir

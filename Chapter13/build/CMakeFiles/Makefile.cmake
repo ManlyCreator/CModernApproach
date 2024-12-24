@@ -45,4 +45,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SandBox.dir/DependInfo.cmake"
+  "CMakeFiles/Planet.dir/DependInfo.cmake"
+  "CMakeFiles/Excercises.dir/DependInfo.cmake"
+  "CMakeFiles/WordComparison.dir/DependInfo.cmake"
+  "CMakeFiles/Remind.dir/DependInfo.cmake"
+  "CMakeFiles/DayFormat.dir/DependInfo.cmake"
   )

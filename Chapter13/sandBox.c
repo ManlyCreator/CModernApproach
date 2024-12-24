@@ -6,7 +6,7 @@ int countSpaces(char *str);
 size_t mystrlen(const char *str);
 void mystrcat(char *s1, const char *s2);
 
-int main(void) {
+int main(int argc, char **argv) {
   // String Splitting
   printf(
       "When you come to a fork in the road,"
@@ -46,6 +46,9 @@ int main(void) {
   strcat(str, "def");
   printf("%s\n", str);
 
+  // strcmp
+  printf("%d\n", strcmp("1/1 1:30", "1/1 1:45 Zebra"));
+
   // Reconstruction of strlen
   printf("%ld\n", mystrlen(str));
 
@@ -54,6 +57,11 @@ int main(void) {
   char s2[80] = " World!";
   mystrcat(s1, s2);
   printf("%s\n", s1);
+
+  // Printing Command-Line Arguments
+  char **c = argv + 1;
+  while (*c)
+    printf("%s\n", *c++);
 
   return 0;
 }
