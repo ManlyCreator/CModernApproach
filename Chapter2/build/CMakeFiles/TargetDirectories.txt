@@ -1,7 +1,0 @@
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/DWeight.dir
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/PrintPractice.dir
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/SphericalVolume.dir
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/TaxCalculator.dir
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/SmallestBills.dir
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/edit_cache.dir
-/home/rami/CProjects/CModernApproach/Chapter2/build/CMakeFiles/rebuild_cache.dir
