@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/DigitalDigits.dir/digitalDigits.c.o -o DigitalDigits 

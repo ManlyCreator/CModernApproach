@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/SandBox.dir/sandBox.c.o -o SandBox 

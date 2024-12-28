@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/UPC_Calculator.dir/UPC_Calculator.c.o -o UPC_Calculator 

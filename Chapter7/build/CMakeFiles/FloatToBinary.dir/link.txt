@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/FloatToBinary.dir/floatToBinary.c.o -o FloatToBinary 

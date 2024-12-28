@@ -1,7 +1,0 @@
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/SandBox.dir
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/QuickSort.dir
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/Excercises.dir
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/Power.dir
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/Craps.dir
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/edit_cache.dir
-/home/rami/CProjects/CModernApproach/Chapter9/build/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/MonthlyReminder.dir/monthlyReminder.c.o -o MonthlyReminder 

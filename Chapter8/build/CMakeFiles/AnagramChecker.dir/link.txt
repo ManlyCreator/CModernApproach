@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/AnagramChecker.dir/anagramChecker.c.o -o AnagramChecker 

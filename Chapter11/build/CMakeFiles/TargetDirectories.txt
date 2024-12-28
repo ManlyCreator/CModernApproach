@@ -1,5 +1,0 @@
-/home/rami/CProjects/CModernApproach/Chapter11/build/CMakeFiles/SandBox.dir
-/home/rami/CProjects/CModernApproach/Chapter11/build/CMakeFiles/MaxMin.dir
-/home/rami/CProjects/CModernApproach/Chapter11/build/CMakeFiles/Excercises.dir
-/home/rami/CProjects/CModernApproach/Chapter11/build/CMakeFiles/edit_cache.dir
-/home/rami/CProjects/CModernApproach/Chapter11/build/CMakeFiles/rebuild_cache.dir

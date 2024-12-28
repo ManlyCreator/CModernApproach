@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/QuickSort.dir/quickSort.c.o -o QuickSort 

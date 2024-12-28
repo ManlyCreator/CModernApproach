@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/NestedParentheses.dir/nestedParentheses.c.o -o NestedParentheses 

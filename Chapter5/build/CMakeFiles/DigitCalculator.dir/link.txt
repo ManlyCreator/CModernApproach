@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/DigitCalculator.dir/digitCalculator.c.o -o DigitCalculator 

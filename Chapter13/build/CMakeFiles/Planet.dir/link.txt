@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/Planet.dir/planet.c.o -o Planet 

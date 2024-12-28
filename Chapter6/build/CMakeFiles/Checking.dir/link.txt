@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/Checking.dir/checking.c.o -o Checking 
