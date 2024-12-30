@@ -3,7 +3,7 @@
 #include "word.h"
 #include "line.h"
 
-// TODO: Implement Line class
+// TODO: (Pg. 365) Implement Line class
 // TODO: Ch. 15 Excercises
 
 #define WORD_LEN 20
