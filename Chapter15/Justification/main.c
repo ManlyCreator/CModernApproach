@@ -1,15 +1,25 @@
 #include <stdio.h>
+#include <string.h>
+#include "word.h"
+#include "line.h"
 
-// TODO: Pg. 361
+// TODO: Implement Line class
+// TODO: Ch. 15 Excercises
+
 #define WORD_LEN 20
 
 int main(void) {
-  char word[WORD_LEN];
+  int wordLen;
+  char word[WORD_LEN + 1];
   while (1) {
-    scanf("%s", word);
-    if (!*word)
+    readWord(word, &wordLen, WORD_LEN);
+    if (wordLen == 0)
       break;
-    printf("%s", word);
+    if (wordLen > WORD_LEN) {
+      word[WORD_LEN] = '*';
+    }
+    printf("%s ", word);
   }
+  printf("\n");
   return 0;
 }
