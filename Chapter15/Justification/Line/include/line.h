@@ -1,11 +1,12 @@
 #ifndef LINE_H
 #define LINE_H
 
-#define LINE_LEN 60
+#define LINE_MAX_LEN 60
 
-int lineWords = 0;
-int lineLen;
-char line[LINE_LEN + 1];
-
+void lineAdd(const char *word);
+void lineWrite();
+void lineClear();
+void lineFlush();
+int lineSpacesRemaining();
 
 #endif

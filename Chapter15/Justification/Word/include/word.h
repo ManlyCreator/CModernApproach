@@ -1,6 +1,8 @@
 #ifndef WORD_H
 #define WORD_H
 
-void readWord(char *word, int *len, int maxLen);
+#define WORD_MAX_LEN 20
+
+void readWord(char *word, int *len);
 
 #endif
