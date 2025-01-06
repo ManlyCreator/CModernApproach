@@ -25,21 +25,22 @@ fraction fractionMul(fraction f1, fraction f2);
 fraction fractionDiv(fraction f1, fraction f2);
 void printFraction(fraction f);
 
-// TODO: Excercise 18, pg. 411
 // 18.)
 typedef enum { EMPTY, PAWN, KNIGHT, BISHOP, ROOK, QUEEN, KING } Piece;
 typedef enum { WHITE, BLACK } Color;
 typedef struct { Piece piece; Color color; } Square;
 
+// 20.)
+typedef enum { NORTH, SOUTH, EAST, WEST } direction;
 
 /*** SCRATCH WORK ***/
 int main(void) {
   // 1.)
-  printf("*** EXCERCISE 1 ***\n");
-  struct { int x, y; } x = { 5, 6 };
-  struct { int x, y; } y = { 2, 10 };
-  printf("x: x = %d, y = %d\n", x.x, x.y);
-  printf("y: x = %d, y = %d\n", y.x, y.y);
+  // printf("*** EXCERCISE 1 ***\n");
+  // struct { int x, y; } x = { 5, 6 };
+  // struct { int x, y; } y = { 2, 10 };
+  // printf("x: x = %d, y = %d\n", x.x, x.y);
+  // printf("y: x = %d, y = %d\n", y.x, y.y);
 
   // 2.)
   // printf("*** EXCERCISE 2 ***\n");
@@ -82,9 +83,36 @@ int main(void) {
   
   // 18.)
   Square chessBoard[8][8] = {
-    { {ROOK, BLACK}, {KNIGHT, BLACK}, {BISHOP, BLACK}, {QUEEN, BLACK}, {KING, BLACK}, {BISHOP, BLACK}, {KNIGHT, BLACK}, {ROOK, BLACK}  },
-    { {PAWN, BLACK}, {PAWN, BLACK},   {PAWN, BLACK},   {PAWN, BLACK},  {PAWN, BLACK}, {PAWN, BLACK},   {PAWN, BLACK},   {PAWN, BLACK}, }
+    { {ROOK, BLACK},  {KNIGHT, BLACK}, {BISHOP, BLACK}, {QUEEN, BLACK}, {KING, BLACK},  {BISHOP, BLACK},  {KNIGHT, BLACK},  {ROOK, BLACK}  },
+    { {PAWN, BLACK},  {PAWN, BLACK},   {PAWN, BLACK},   {PAWN, BLACK},  {PAWN, BLACK},  {PAWN, BLACK},    {PAWN, BLACK},    {PAWN, BLACK}, },
+    { {EMPTY, BLACK}, {EMPTY, BLACK},  {EMPTY, BLACK},  {EMPTY, BLACK}, {EMPTY, BLACK}, {EMPTY, BLACK},   {EMPTY, BLACK},   {EMPTY, BLACK}, },
+    { {EMPTY, BLACK}, {EMPTY, BLACK},  {EMPTY, BLACK},  {EMPTY, BLACK}, {EMPTY, BLACK}, {EMPTY, BLACK},   {EMPTY, BLACK},   {EMPTY, BLACK}, },
+    { {EMPTY, BLACK}, {EMPTY, BLACK},  {EMPTY, BLACK},  {EMPTY, BLACK}, {EMPTY, BLACK}, {EMPTY, BLACK},   {EMPTY, BLACK},   {EMPTY, BLACK}, },
+    { {EMPTY, BLACK}, {EMPTY, BLACK},  {EMPTY, BLACK},  {EMPTY, BLACK}, {EMPTY, BLACK}, {EMPTY, BLACK},   {EMPTY, BLACK},   {EMPTY, BLACK}, },
+    { {PAWN, WHITE},  {PAWN, WHITE},   {PAWN, WHITE},   {PAWN, WHITE},  {PAWN, WHITE},  {PAWN, WHITE},    {PAWN, WHITE},    {PAWN, WHITE}, },
+    { {ROOK, WHITE},  {KNIGHT, WHITE}, {BISHOP, WHITE}, {QUEEN, WHITE}, {KING, WHITE},  {BISHOP, WHITE},  {KNIGHT, WHITE},  {ROOK, WHITE}  },
   };
+
+  // 20.)
+  printf("*** EXCERCISE 20 ***\n");
+  direction d = NORTH;
+  int x = 0, y = 0;
+  switch (d) {
+    case NORTH:
+      y++;
+      break;
+    case SOUTH:
+      y--;
+      break;
+    case EAST:
+      x++;
+      break;
+    case WEST:
+      x--;
+      break;
+  }
+  printf("x: %d\n", x);
+  printf("y: %d\n", y);
   return 0;
 }
 
