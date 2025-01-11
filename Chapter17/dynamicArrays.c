@@ -13,29 +13,36 @@ typedef struct {
 
 Vector vectorNew(size_t bytes);
 void vectorInsert(Vector *vector, int index, void *value);
-
-// TODO: Add a vectorGet() function and loop through a vector to print its values
-// TODO: Figure out how to pass constants to vectorInsert (macros?)
+void *vectorGet(Vector vector, int index);
+void vectorFree(Vector *vector);
 
 int main(void) {
   // malloc creates memory on the heap but does not clear it
   int n = 10;
   int *arr = malloc(n * sizeof(int));
-  void *data;
   printf("arr[0] = %d\n", arr[9]);
+
   // calloc creates memory on the heap and clears it (intialized data to 0)
   Point *p = calloc(1, sizeof(Point));
   printf("x = %d, y = %d\n", p->x, p->y);
+
   // Vector Data Structure using dynamic memory allocation
   Vector doubleVector = vectorNew(sizeof(double));
-  double i = 10.0f;
-  vectorInsert(&doubleVector, 0, &i);
-  vectorInsert(&doubleVector, 5, &i);
-  printf("%g\n", *(double *)(doubleVector.data + 0 * doubleVector.bytes));
-  printf("%g\n", *(double *)(doubleVector.data + 1 * doubleVector.bytes));
-  printf("%g\n", *(double *)(doubleVector.data + 5 * doubleVector.bytes));
-  printf("Size: %ld\n", doubleVector.size);
-  printf("Capacity: %ld\n", doubleVector.capacity);
+  double v[] = { 10.0f, 0.0f, 5.0f, 20.0f, 30.0f };
+
+  for (int i = 0; i < sizeof(v) / sizeof(v[0]); i++) {
+    printf("%d.) Vector Capacity: %ld\n", i, doubleVector.capacity);
+    vectorInsert(&doubleVector, i, &v[i]);
+  }
+
+  for (int i = 0; i < doubleVector.size; i++) {
+    printf("Vector[%d] = %g\n", i, *(double *)vectorGet(doubleVector, i));
+  }
+
+  // Freeing memory
+  free(arr);
+  free(p);
+  vectorFree(&doubleVector);
   return 0;
 }
 
@@ -57,4 +64,15 @@ void vectorInsert(Vector *vector, int index, void *value) {
   }
   ptr = vector->data + index * vector->bytes;
   memcpy(ptr, value, vector->bytes);
+}
+
+void *vectorGet(Vector vector, int index) {
+  return vector.data + index * vector.bytes;
+}
+
+void vectorFree(Vector *vector) {
+  free(vector->data);
+  vector->size = 0;
+  vector->capacity = 0;
+  vector->bytes = 0;
 }
