@@ -15,11 +15,11 @@ typedef struct Part {
 Part *findPart(Part *inventory, int number);
 void insert(Part **inventoryPtr);
 void search(Part *inventory);
-void update(Part *inventory);
+void update(Part **inventoryPtr);
 void print(Part *inventory);
+void quit(Part **inventoryPtr);
 
-// TODO: Finish insert
-// TODO: Pg. 435
+// TODO: Pg. 437 - Pointers to Pointers
 
 int main(void) {
   char code;
@@ -33,16 +33,17 @@ int main(void) {
       case 'i':
         insert(&inventory);
         break;
-      /*case 's':*/
-      /*  search(inventory);*/
-      /*  break;*/
-      /*case 'u':*/
-      /*  update(inventory);*/
-      /*  break;*/
+      case 's':
+        search(inventory);
+        break;
+      case 'u':
+        update(&inventory);
+        break;
       case 'p':
         print(inventory);
         break;
       case 'q':
+        quit(&inventory);
         return 0;
       default:
         printf("Invalid code entered\n");
@@ -64,7 +65,7 @@ Part *findPart(Part *inventory, int number) {
 
 void insert(Part **inventoryPtr) {
   int partNum;
-  Part *current, *newPart;
+  Part *previous, *current, *newPart;
 
   printf("Enter a part number: ");
   scanf("%d", &partNum);
@@ -75,51 +76,70 @@ void insert(Part **inventoryPtr) {
   }
 
   newPart = malloc(sizeof(Part));
-
-  for (current = *inventoryPtr; current && current->number < partNum; current = current->next);
+  for (previous = NULL, current = *inventoryPtr; current && current->number < partNum; previous = current, current = current->next);
+  newPart->next = current;
+  if (!previous)
+    *inventoryPtr = newPart;
+  else
+    previous->next = newPart;
 
   while (getchar() != '\n');
   printf("Enter a part name: ");
-  fgets(current->name, NAME_LEN + 1, stdin);
-  current->name[strlen(current->name) - 1] = '\0';
+  fgets(newPart->name, NAME_LEN + 1, stdin);
+  newPart->name[strlen(newPart->name) - 1] = '\0';
 
   printf("Enter amount on hand: ");
-  scanf("%d", &current->onHand);
+  scanf("%d", &newPart->onHand);
+
+  newPart->number = partNum;
 }
 
-/*void search(Inventory *inventory) {*/
-/*  int partNum, i;*/
-/**/
-/*  printf("Enter a part number: ");*/
-/*  scanf("%d", &partNum);*/
-/**/
-/*  if ((i = findPart(*inventory, partNum)) < 0) {*/
-/*    printf("Part does not exist\n");*/
-/*    return;*/
-/*  }*/
-/**/
-/*  printf("Name: %s\n", inventory->items[i].name);*/
-/*  printf("On Hand: %d\n", inventory->items[i].onHand);*/
-/*}*/
-/**/
-/*void update(Inventory *inventory) {*/
-/*  int partNum, i, change;*/
-/**/
-/*  printf("Enter a part number: ");*/
-/*  scanf("%d", &partNum);*/
-/**/
-/*  if ((i = findPart(*inventory, partNum)) < 0) {*/
-/*    printf("Part does not exist\n");*/
-/*    return;*/
-/*  }*/
-/**/
-/*  printf("Enter change in quantity: ");*/
-/*  scanf("%d", &change);*/
-/**/
-/*  inventory->items[i].onHand += change;*/
-/*}*/
-/**/
+void search(Part *inventory) {
+  Part *part;
+  int partNum;
+
+  printf("Enter a part number: ");
+  scanf("%d", &partNum);
+
+  if (!(part = findPart(inventory, partNum))) {
+    printf("Part does not exist\n");
+    return;
+  }
+
+  printf("Name: %s\n", part->name);
+  printf("On Hand: %d\n", part->onHand);
+}
+
+void update(Part **inventoryPtr) {
+  Part *part;
+  int partNum, change;
+
+  printf("Enter a part number: ");
+  scanf("%d", &partNum);
+
+  if (!(part = findPart(*inventoryPtr, partNum))) {
+    printf("Part does not exist\n");
+    return;
+  }
+
+  printf("Enter change in quantity: ");
+  scanf("%d", &change);
+
+  part->onHand += change;
+}
+
 void print(Part *inventory) {
-  while (inventory)
+  while (inventory) {
     printf("%3d    %-24s%7d\n", inventory->number, inventory->name, inventory->onHand);
+    inventory = inventory->next;
+  }
+}
+
+void quit(Part **inventoryPtr) {
+  Part *part = *inventoryPtr, *nextPart;
+  while (part) {
+    nextPart = part->next;
+    free(part);
+    part = nextPart;
+  }
 }
