@@ -8,3 +8,9 @@ add_executable(DynamicArrays dynamicArrays.c)
 add_executable(LinkedLists linkedLists.c)
 add_executable(PartsInventory2 partsInventory2.c)
 add_executable(FunctionPointers functionPointers.c)
+
+add_executable(TabulateTrig tabulateTrig.c)
+target_link_libraries(TabulateTrig m)
+
+add_executable(VoidPointers voidPointers.c)
+add_executable(Excercises excercises.c)

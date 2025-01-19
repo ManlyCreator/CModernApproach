@@ -5,9 +5,6 @@
 int compareInt(const void *x, const void *y);
 int compareStr(const void *x, const void *y);
 
-// TODO: Reason through compareStr requiring a *(char **) cast
-// TODO: Pg. 441 - Other Uses of Function Pointers
-
 int main(void) {
   int arr[] = { 10, 2, 9, 7, 6 };
   char *strs[] = { "the", "quick", "brown", "fox", "jumped", "over", "the", "fence" };
