@@ -17,7 +17,13 @@ typedef struct { point upperLeft, lowerRight; } rectangle;
 
 // 5.) (b), (c)
 
-// TODO: Excercise 6, Pg. 453
+// 7.) If p is freed before the next loop then there is no way to access the next element
+
+// 8.) See stack.c
+
+// 9.) (&x)->a would be the equivalent of trying to take the dereferenced value of an address. Since an address is not a struct,
+//     this would not be equivalent to x.a
+
 
 /*** SCRATCH WORK ***/
 int main(void) {

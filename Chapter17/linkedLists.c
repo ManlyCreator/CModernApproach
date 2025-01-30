@@ -84,7 +84,7 @@ void listDeleteAt(LinkedList *list, int index) {
   }
   if (prev)
     prev->next = cur->next;
-  if (cur == list->first)
+  else
     list->first = cur->next;
   free(cur);
 }

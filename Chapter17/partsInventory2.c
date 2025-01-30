@@ -16,10 +16,9 @@ Part *findPart(Part *inventory, int number);
 void insert(Part **inventoryPtr);
 void search(Part *inventory);
 void update(Part **inventoryPtr);
+void erase(Part **inventoryPtr);
 void print(Part *inventory);
 void quit(Part **inventoryPtr);
-
-// TODO: Pg. 437 - Pointers to Pointers
 
 int main(void) {
   char code;
@@ -38,6 +37,9 @@ int main(void) {
         break;
       case 'u':
         update(&inventory);
+        break;
+      case 'e':
+        erase(&inventory);
         break;
       case 'p':
         print(inventory);
@@ -67,7 +69,7 @@ void insert(Part **inventoryPtr) {
   int partNum;
   Part *previous, *current, *newPart;
 
-  printf("Enter a part number: ");
+  printf("Enter a part number to insert: ");
   scanf("%d", &partNum);
 
   if (findPart(*inventoryPtr, partNum)) {
@@ -98,7 +100,7 @@ void search(Part *inventory) {
   Part *part;
   int partNum;
 
-  printf("Enter a part number: ");
+  printf("Enter a part number to search for: ");
   scanf("%d", &partNum);
 
   if (!(part = findPart(inventory, partNum))) {
@@ -114,7 +116,7 @@ void update(Part **inventoryPtr) {
   Part *part;
   int partNum, change;
 
-  printf("Enter a part number: ");
+  printf("Enter a part number to update: ");
   scanf("%d", &partNum);
 
   if (!(part = findPart(*inventoryPtr, partNum))) {
@@ -126,6 +128,27 @@ void update(Part **inventoryPtr) {
   scanf("%d", &change);
 
   part->onHand += change;
+}
+
+void erase(Part **inventoryPtr) {
+  Part *part, *cur, *prev;
+  int partNum;
+
+  printf("Enter a part number to erase: ");
+  scanf("%d", &partNum);
+
+  if (!findPart(*inventoryPtr, partNum)) {
+    printf("Part does not exist\n");
+    return;
+  }
+
+  for (prev = NULL, cur = *inventoryPtr; cur->number != partNum; prev = cur, cur = cur->next);
+  if (prev)
+    prev->next = cur->next;
+  else
+    *inventoryPtr = cur->next;
+
+  free(cur);
 }
 
 void print(Part *inventory) {

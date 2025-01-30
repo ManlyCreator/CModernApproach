@@ -14,3 +14,5 @@ target_link_libraries(TabulateTrig m)
 
 add_executable(VoidPointers voidPointers.c)
 add_executable(Excercises excercises.c)
+add_executable(Stack stack.c)
+add_executable(SortStrings sortStrings.c)
