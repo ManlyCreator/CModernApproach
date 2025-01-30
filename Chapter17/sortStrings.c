@@ -9,7 +9,6 @@ int readLine(char *buffer);
 int stringCompare(const void *str1, const void *str2);
 void printWords(char **wordsList, int n);
 
-
 int main(void) {
   int strLen;
   int top = 0;
